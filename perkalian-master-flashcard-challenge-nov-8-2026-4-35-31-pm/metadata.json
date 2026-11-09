@@ -1,0 +1,6 @@
+{
+  "name": "PERKALIAN MASTER – Flashcard Challenge",
+  "description": "Media pembelajaran interaktif perkalian 1 sampai 100 dengan 1.000 flashcard, latihan cerdas, tantangan waktu, dan gamifikasi seru untuk siswa SD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
