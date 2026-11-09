@@ -28,6 +28,7 @@ import {
   resetProfileProgress 
 } from '../utils/storage';
 import { sound } from '../utils/sound';
+import trophyImage from '../assets/images/badge_math_trophy_1794129987529.jpg';
 
 interface ProfileViewProps {
   currentProfile: StudentProfile;
@@ -392,7 +393,7 @@ export const ProfileView: React.FC<ProfileViewProps> = ({
                   <div className="w-12 h-12 mx-auto mb-2 flex items-center justify-center">
                     {isPassed ? (
                       <img
-                        src="/src/assets/images/badge_math_trophy_1794129987529.jpg"
+                        src={trophyImage}
                         alt="Piala Juara"
                         referrerPolicy="no-referrer"
                         className="w-12 h-12 object-contain"

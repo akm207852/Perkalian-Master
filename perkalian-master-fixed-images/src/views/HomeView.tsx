@@ -16,6 +16,8 @@ import {
 import { StudentProfile, ActiveView } from '../types/math';
 import { LEVEL_CONFIGS, MOTIVATION_QUOTES } from '../utils/mathEngine';
 import { MascotMessage } from '../components/MascotMessage';
+import heroImage from '../assets/images/hero_math_adventure_1794129987884.jpg';
+import mascotImage from '../assets/images/mascot_kiko_robot_1794129987412.jpg';
 
 interface HomeViewProps {
   profile: StudentProfile;
@@ -50,7 +52,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ profile, onNavigate }) => {
         {/* Background artwork */}
         <div className="absolute inset-0 opacity-20 pointer-events-none">
           <img
-            src="/src/assets/images/hero_math_adventure_1794129987884.jpg"
+            src={heroImage}
             alt="Petualangan Matematika"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
@@ -96,7 +98,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ profile, onNavigate }) => {
           <div className="shrink-0 flex flex-col items-center">
             <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-3xl overflow-hidden border-4 border-white/60 shadow-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center">
               <img
-                src="/src/assets/images/mascot_kiko_robot_1794129987412.jpg"
+                src={mascotImage}
                 alt="Robot Kiko"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

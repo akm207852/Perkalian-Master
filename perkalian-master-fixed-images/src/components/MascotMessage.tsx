@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sparkles, MessageCircle } from 'lucide-react';
+import mascotImage from '../assets/images/mascot_kiko_robot_1794129987412.jpg';
 
 interface MascotMessageProps {
   quote?: string;
@@ -21,7 +22,7 @@ export const MascotMessage: React.FC<MascotMessageProps> = ({
       <div className="relative shrink-0">
         <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl overflow-hidden border-2 border-white shadow-md bg-blue-100 flex items-center justify-center">
           <img
-            src="/src/assets/images/mascot_kiko_robot_1794129987412.jpg"
+            src={mascotImage}
             alt="Mascot Kiko si Robot Matematika"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
